@@ -1,7 +1,7 @@
 const knex = require('knex')
 const bcrypt = require('bcryptjs')
 const app = require('../src/app')
-const fixtures = require('./fulfillment-fixtures');
+const fixtures = require('./data-fixtures');
 
 describe('Users Endpoints', function() {
   let db
